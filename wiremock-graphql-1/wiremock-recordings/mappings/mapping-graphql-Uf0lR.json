@@ -1,0 +1,22 @@
+{
+  "id" : "fd15be9f-3ad3-32b9-9cc0-15d11d8b5380",
+  "request" : {
+    "url" : "/graphql",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"query\":\"{\\n  getGreeting(name: \\\"Javed\\\")\\n}\"}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-graphql-Uf0lR.json",
+    "headers" : {
+      "Keep-Alive" : "timeout=60",
+      "Date" : "Thu, 19 Dec 2024 15:17:37 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "fd15be9f-3ad3-32b9-9cc0-15d11d8b5380"
+}
